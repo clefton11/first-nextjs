@@ -20,7 +20,8 @@ const nextConfig: NextConfig = {
         port:"",
       }
     ]
-  }
+  },
+  serverExternalPackages:["@prisma/client", "prisma"],
 };
 
 export default nextConfig;
